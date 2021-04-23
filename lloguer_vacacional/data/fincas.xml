@@ -1,0 +1,90 @@
+<fincas>
+
+    <nombre_empresa>Fincas David</nombre_empresa>
+    <direccion_empresa>Calle Cuadrada 21</direccion_empresa>
+    <finca id="1">
+        <nombre>Horizonte</nombre>
+        <tipo>Rural</tipo>
+        <localizacion>Canyamel</localizacion>
+        <img>./img/finca1.jpg</img>
+        <max_personas>8</max_personas>
+        <tipo_contrato>Por dia</tipo_contrato>
+        <precio_actual>556</precio_actual>
+        <precio_oferta>420</precio_oferta>
+        <interior>
+            <baños>2</baños>
+            <habitaciones>4</habitaciones>
+        </interior>
+    </finca>
+        <finca id="2">
+        <nombre>Horizonte</nombre>
+        <tipo>Rural</tipo>
+        <localizacion>Canyamel</localizacion>
+        <img>./img/finca2.jpg</img>
+        <max_personas>8</max_personas>
+        <tipo_contrato>Por dia</tipo_contrato>
+        <precio_actual>556</precio_actual>
+        <precio_oferta>420</precio_oferta>
+        <interior>
+            <baños>2</baños>
+            <habitaciones>4</habitaciones>
+        </interior>
+    </finca>
+        <finca id="3">
+        <nombre>Horizonte</nombre>
+        <tipo>Rural</tipo>
+        <localizacion>Canyamel</localizacion>
+        <img>./img/finca3.jpg</img>
+        <max_personas>8</max_personas>
+        <tipo_contrato>Por dia</tipo_contrato>
+        <precio_actual>556</precio_actual>
+        <precio_oferta>420</precio_oferta>
+        <interior>
+            <baños>2</baños>
+            <habitaciones>4</habitaciones>
+        </interior>
+    </finca>
+        <finca id="4">
+        <nombre>Horizonte</nombre>
+        <tipo>Rural</tipo>
+        <localizacion>Canyamel</localizacion>
+        <img>./img/finca4.jpg</img>
+        <max_personas>8</max_personas>
+        <tipo_contrato>Por dia</tipo_contrato>
+        <precio_actual>556</precio_actual>
+        <precio_oferta>420</precio_oferta>
+        <interior>
+            <baños>2</baños>
+            <habitaciones>4</habitaciones>
+        </interior>
+    </finca>
+        <finca id="5">
+        <nombre>Horizonte</nombre>
+        <tipo>Rural</tipo>
+        <localizacion>Canyamel</localizacion>
+        <img>./img/finca5.jpg</img>
+        <max_personas>8</max_personas>
+        <tipo_contrato>Por dia</tipo_contrato>
+        <precio_actual>556</precio_actual>
+        <precio_oferta>420</precio_oferta>
+        <interior>
+            <baños>2</baños>
+            <habitaciones>4</habitaciones>
+        </interior>
+    </finca>
+        <finca id="6">
+        <nombre>Horizonte</nombre>
+        <tipo>Rural</tipo>
+        <localizacion>Canyamel</localizacion>
+        <img>./img/finca6.jpg</img>
+        <max_personas>8</max_personas>
+        <tipo_contrato>Por dia</tipo_contrato>
+        <precio_actual>556</precio_actual>
+        <precio_oferta>420</precio_oferta>
+        <interior>
+            <baños>2</baños>
+            <habitaciones>4</habitaciones>
+        </interior>
+    </finca>
+
+</fincas>
