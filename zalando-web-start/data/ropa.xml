@@ -1,0 +1,86 @@
+<?xml version ="1.0" encoding ="UTF-8"?>
+<ropa>
+    <prenda id="1" precio="40">
+        <moda>H</moda>
+        <categoria>Pantalón</categoria>
+        <nombre>Jeans skinny básico</nombre>
+        <color>azul</color>
+        <unidades>5</unidades>
+        <img>h-jeans-skinny-basico.png</img>
+    </prenda>
+    <prenda id="2" precio="30">
+        <moda>H</moda>
+        <categoria>Pantalón</categoria>
+        <nombre>Jeans slim fit</nombre>
+        <color>azul celeste</color>
+        <unidades>5</unidades>
+        <img>h-jeans-slim-fit.png</img>
+    </prenda>
+    <prenda id="3" precio="20">
+        <moda>H</moda>
+        <categoria>Chaleco</categoria>
+        <nombre>Chaleco slim fit</nombre>
+        <color>negro</color>
+        <unidades>5</unidades>
+        <img>h-chaleco-slim.fit.png</img>
+    </prenda>
+    <prenda id="4" precio="10">
+        <moda>H</moda>
+        <categoria>Camiseta</categoria>
+        <nombre>Camiseta jaws</nombre>
+        <color>amarillo</color>
+        <unidades>0</unidades>
+        <img>h-camiseta-jaws.png</img>
+    </prenda>
+
+    <prenda id="5" precio="40">
+        <moda>M</moda>
+        <categoria>Pantalón</categoria>
+        <nombre>Jeans Mom Fit</nombre>
+        <color>azul</color>
+        <unidades>1</unidades>
+        <img>m-jeans-mom-fit.png</img>
+    </prenda>
+    <prenda id="6" precio="30">
+        <moda>M</moda>
+        <categoria>Sudadera</categoria>
+        <nombre>Sudadera Barbie</nombre>
+        <color>rosa</color>
+        <unidades>2</unidades>
+        <img>m-sudadera-barbie.png</img>
+    </prenda>
+    <prenda id="7" precio="20">
+        <moda>M</moda>
+        <categoria>Falda</categoria>
+        <nombre>Falda pareo lino</nombre>
+        <color>rosa</color>
+        <unidades>5</unidades>
+        <img>m-falda-pareo-lino.png</img>
+    </prenda>
+    <prenda id="8" precio="10">
+        <moda>M</moda>
+        <categoria>Camiseta</categoria>
+        <nombre>Pink panther</nombre>
+        <color>rosa</color>
+        <unidades>5</unidades>
+        <img>m-pink-panther.png</img>
+    </prenda>
+
+    <prenda id="9" precio="40">
+        <moda>U</moda>
+        <categoria>Abrigo</categoria>
+        <nombre>Abrigo unisex lino</nombre>
+        <color>crema</color>
+        <unidades>5</unidades>
+        <img>u-abrigo-unisex-lino.png</img>
+    </prenda>
+    <prenda id="10" precio="30">
+        <moda>U</moda>
+        <categoria>Abrigo</categoria>
+        <nombre>Garbardina unisex lino</nombre>
+        <color>verde</color>
+        <unidades>6</unidades>
+        <img>u-gabardina-water-reppelent.png</img>
+    </prenda>
+   
+</ropa>
