@@ -1,0 +1,60 @@
+<tienda id="1">
+    <nombre>Tommy Hilfiger</nombre>
+    <dirección>
+        <calle>Calle Olmos</calle>
+        <numero>49</numero>
+    </dirección>
+    <productos>
+        <producto id="374">
+            <nombreProducto>Pantalones cortos Vaqueros</nombreProducto>
+            <precioInicial>49€</precioInicial>
+            <precioDescuento>35€</precioDescuento>
+            <moneda>euros</moneda>
+            <categoria>hombre</categoria>
+            <foto>./img/img0.png</foto>
+        </producto>
+        <producto id="375">
+            <nombreProducto>Pantalones cortos Chandal</nombreProducto>
+            <precioInicial>43€</precioInicial>
+            <precioDescuento>32€</precioDescuento>
+            <moneda>euros</moneda>
+            <categoria>mujer</categoria>
+            <foto>./img/img1.jpg</foto>
+        </producto>
+        <producto id="376">
+            <nombreProducto>Camiseta Vaquera</nombreProducto>
+            <precioInicial>56€</precioInicial>
+            <precioDescuento>35€</precioDescuento>
+            <moneda>euros</moneda>
+            <categoria>niño</categoria>
+            <foto>./img/img2.jpg</foto>
+        </producto>
+        <producto id="377">
+            <nombreProducto>Pantalones cortos Vaqueros</nombreProducto>
+            <precioInicial>49€</precioInicial>
+            <precioDescuento>35€</precioDescuento>
+            <moneda>euros</moneda>
+            <categoria>hombre</categoria>
+            <foto>./img/img0.png</foto>
+        </producto>
+        <producto id="378">
+            <nombreProducto>Pantalones cortos Chandal</nombreProducto>
+            <precioInicial>43€</precioInicial>
+            <precioDescuento>32€</precioDescuento>
+            <moneda>euros</moneda>
+            <categoria>mujer</categoria>
+            <foto>./img/img1.jpg</foto>
+        </producto>
+        <producto id="379">
+            <nombreProducto>Camiseta Vaquera</nombreProducto>
+            <precioInicial>56€</precioInicial>
+            <precioDescuento>35€</precioDescuento>
+            <moneda>euros</moneda>
+            <categoria>niño</categoria>
+            <foto>./img/img2.jpg</foto>
+        </producto>
+    </productos
+
+
+
+</tienda>
