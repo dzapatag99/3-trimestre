@@ -1,10 +1,10 @@
-container = document.getElementById("tiendaContainer");
+const contenedor = document.querySelector("#tiendaContainer");
 
-init();
 
-function init(){
+
+window.onload = function () {
     cogerRopa();
-}
+};
 
 function cogerRopa(){
     fetch("./data/tenda.xml")
@@ -21,8 +21,8 @@ function cogerRopa(){
                         let precioAct = producto.querySelector("precioInicial").textContent;
                         let precioDesp = producto.querySelector("precioDescuento").textContent;
                         let img = producto.querySelector("foto").textContent;
-                        container.innerHTML +=`
-                        <div class="card" style="width: 18rem;">
+                        contenedor.innerHTML +=`
+                        <div class="card" style="width: 12rem;">
                         <img src="${img}" class="card-img-top" alt="...">
                         <div class="card-body">
                           <h5 class="card-title">${nombreProducto}</h5>

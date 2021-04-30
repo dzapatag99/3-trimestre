@@ -53,6 +53,30 @@
             <categoria>niño</categoria>
             <foto>./img/img2.jpg</foto>
         </producto>
+                <producto id="379">
+            <nombreProducto>Camiseta Vaquera</nombreProducto>
+            <precioInicial>56€</precioInicial>
+            <precioDescuento>35€</precioDescuento>
+            <moneda>euros</moneda>
+            <categoria>niño</categoria>
+            <foto>./img/img2.jpg</foto>
+        </producto>
+                <producto id="379">
+            <nombreProducto>Camiseta Vaquera</nombreProducto>
+            <precioInicial>56€</precioInicial>
+            <precioDescuento>35€</precioDescuento>
+            <moneda>euros</moneda>
+            <categoria>niño</categoria>
+            <foto>./img/img2.jpg</foto>
+        </producto>
+                <producto id="379">
+            <nombreProducto>Camiseta Vaquera</nombreProducto>
+            <precioInicial>56€</precioInicial>
+            <precioDescuento>35€</precioDescuento>
+            <moneda>euros</moneda>
+            <categoria>niño</categoria>
+            <foto>./img/img2.jpg</foto>
+        </producto>
     </productos
 
 

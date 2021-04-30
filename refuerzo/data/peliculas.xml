@@ -1,0 +1,55 @@
+<?xml version ="1.0" encoding ="UTF-8"?>
+<peliculas xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+           xsi:noNamespaceSchemaLocation="peliculas.xsd">
+    <pelicula id="1">
+        <nombre>Kimetsu no Yaiba,</nombre>
+        <director>Fransuoa</director>
+        <cinematografica>Los que respetan</cinematografica>
+        <tiempoduracion>1:20h</tiempoduracion>
+        <valoracion>7.9</valoracion>
+        <img>./img/kimetsu.jpg</img>
+    </pelicula>
+    <pelicula id="2">
+        <nombre>Kimetsu no Yaiba</nombre>
+        <director>Fransuoa</director>
+        <cinematografica>Los que respetan</cinematografica>
+        <tiempoduracion>1:20h</tiempoduracion>
+        <valoracion>7.9</valoracion>
+        <img>./img/kimetsu.jpg</img>
+    </pelicula>
+     <pelicula id="3">
+        <nombre>Kimetsu no Yaiba</nombre>
+        <director>Fransuoa</director>
+        <cinematografica>Los que respetan</cinematografica>
+        <tiempoduracion>1:20h</tiempoduracion>
+        <valoracion>7.9</valoracion>
+        <img>./img/kimetsu.jpg</img>
+    </pelicula>
+    <pelicula id="4">
+        <nombre>Kimetsu no Yaiba</nombre>
+        <director>Fransuoa</director>
+        <cinematografica>Los que respetan</cinematografica>
+        <tiempoduracion>1:20h</tiempoduracion>
+        <valoracion>7.9</valoracion>
+        <img>./img/kimetsu.jpg</img>
+    </pelicula>
+        <pelicula id="5">
+        <nombre>Kimetsu no Yaiba</nombre>
+        <director>Fransuoa</director>
+        <cinematografica>Los que respetan</cinematografica>
+        <tiempoduracion>1:20h</tiempoduracion>
+        <valoracion>7.9</valoracion>
+        <img>./img/kimetsu.jpg</img>
+    </pelicula>
+    <pelicula id="6">
+        <nombre>Kimetsu no Yaiba</nombre>
+        <director>Fransuoa</director>
+        <cinematografica>Los que respetan</cinematografica>
+        <tiempoduracion>1:20h</tiempoduracion>
+        <valoracion>7.9</valoracion>
+        <img>./img/kimetsu.jpg</img>
+    </pelicula>
+
+
+
+</peliculas>
