@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<factura xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:noNamespaceSchemaLocation="factura.xsd">
+  <nombre>Javier Toledano</nombre>
+  <nombre>Javier Toledano</nombre>
+  <nombre>Javier Toledano</nombre>
+  <periodo>mensual</periodo>
+  <concepto>Limpieza escalera y jardín</concepto>
+  <fecha>2021-02-04</fecha>
+  <hora>23:55:15</hora>
+  <precio>123.56</precio>
+  <pagado>true</pagado>
+</factura>

@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+<xs:element name="albums">
+  <xs:complexType>
+    <xs:sequence>
+      <xs:element ref="album" minOccurs="0" maxOccurs="unbounded" />
+    </xs:sequence>
+  </xs:complexType>
+</xs:element>
+
+  <xs:element name="album">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="titulo" minOccurs="1" maxOccurs="1" />
+        <xs:element ref="discografica" minOccurs="1" maxOccurs="1" />
+        <xs:element ref="grupo" minOccurs="1" maxOccurs="1" />
+      </xs:sequence>
+      <xs:attribute name="id" type="xs:integer" use="required"/>
+      <xs:attribute name="precio" type="xs:decimal" use="required" />
+      <xs:attribute name="anyo" use="required">
+        <xs:simpleType>
+          <xs:restriction base="xs:integer">
+            <xs:pattern value="([0-9]){4}" />
+          </xs:restriction>
+        </xs:simpleType>
+      </xs:attribute>
+      <xs:attribute name="stock" use="required">
+        <xs:simpleType>
+          <xs:restriction base="xs:integer">
+            <xs:minInclusive value="0" />
+            <xs:maxInclusive value="200" />
+          </xs:restriction>
+        </xs:simpleType>
+      </xs:attribute>
+    </xs:complexType>
+  </xs:element>
+
+  <!-- Restriciones para etiquetas principales album -->
+  <xs:element name="titulo">
+    <xs:simpleType>
+      <xs:restriction base="xs:string">
+        <xs:maxLength value="30" />
+      </xs:restriction>
+    </xs:simpleType>
+  </xs:element>
+
+  <xs:element name="discografica">
+    <xs:simpleType>
+      <xs:restriction base="xs:string">
+        <xs:enumeration value="SONY" />
+        <xs:enumeration value="CBS" />
+        <xs:enumeration value="SIRE" />
+        <xs:enumeration value="OTRAS" />
+      </xs:restriction>
+    </xs:simpleType>
+  </xs:element>
+  
+  <!-- Restriciones para grupo -->
+  <xs:element name="grupo">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="nombre" minOccurs="1" maxOccurs="1" />
+        <xs:element ref="miembro" minOccurs="1" maxOccurs="3" />
+        <xs:element ref="nacionalidad"  minOccurs="0" maxOccurs="1" />
+
+        <xs:choice>
+          <xs:sequence>
+            <xs:element ref="calle"  minOccurs="1" maxOccurs="1" />
+            <xs:element ref="localidad"  minOccurs="1" maxOccurs="1" />
+          </xs:sequence>
+          <xs:sequence>
+            <xs:element ref="web"  minOccurs="1" maxOccurs="1" />
+            <xs:element ref="email"  minOccurs="1" maxOccurs="1" />
+          </xs:sequence>
+        </xs:choice>
+
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+
+  <!-- Restriciones generales de tipo y longitud -->
+  <xs:element name="nombre">
+    <xs:simpleType>
+      <xs:restriction base="xs:string">
+        <xs:maxLength value="50" />
+      </xs:restriction>
+    </xs:simpleType>
+  </xs:element>
+
+  <xs:element name="miembro">
+    <xs:simpleType>
+      <xs:restriction base="xs:string">
+        <xs:maxLength value="50" />
+      </xs:restriction>
+    </xs:simpleType>
+  </xs:element>
+
+  <xs:element name="nacionalidad">
+    <xs:simpleType>
+      <xs:restriction base="xs:string">
+        <xs:maxLength value="50" />
+      </xs:restriction>
+    </xs:simpleType>
+  </xs:element>
+
+  <xs:element name="web">
+    <xs:simpleType>
+      <xs:restriction base="xs:string">
+        <xs:maxLength value="50" />
+      </xs:restriction>
+    </xs:simpleType>
+  </xs:element>
+
+  <xs:element name="email">
+    <xs:simpleType>
+      <xs:restriction base="xs:string">
+        <xs:maxLength value="50" />
+      </xs:restriction>
+    </xs:simpleType>
+  </xs:element>
+
+  <xs:element name="calle">
+    <xs:simpleType>
+      <xs:restriction base="xs:string">
+        <xs:maxLength value="50" />
+      </xs:restriction>
+    </xs:simpleType>
+  </xs:element>
+
+  <xs:element name="localidad">
+    <xs:simpleType>
+      <xs:restriction base="xs:string">
+        <xs:maxLength value="30" />
+      </xs:restriction>
+    </xs:simpleType>
+  </xs:element>
+
+
+</xs:schema>

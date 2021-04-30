@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<albums xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+        xsi:noNamespaceSchemaLocation="albums.xsd">
+  <album id="1" precio="12.80" anyo="2021" stock="20">
+    <titulo>Lo Vas A olvidar</titulo>
+    <discografica>SONY</discografica>
+    <grupo>
+      <nombre>Rosalía</nombre>
+      <miembro>Rosalía</miembro>
+      <miembro>Billie Eilish</miembro>
+      <nacionalidad>Española</nacionalidad>
+      <web>www.discosoh.org/rosalia</web>
+      <email>rosalian@discosohh.org</email>
+    </grupo>
+  </album>
+  <album id="2" precio="15.50" anyo="2021" stock="15">
+    <titulo>No sabes mentir</titulo>
+    <discografica>CBS</discografica>
+    <grupo>
+      <nombre>Cupido</nombre>
+      <miembro>Pimp Flaco</miembro>
+      <miembro>Solo Astra</miembro>
+      <calle>Calle los makao</calle>
+      <localidad>Lavapiés</localidad>
+    </grupo>
+  </album>
+</albums>

@@ -1,8 +1,12 @@
 <?xml version ="1.0" encoding ="UTF-8"?>
 <peliculas xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
            xsi:noNamespaceSchemaLocation="peliculas.xsd">
-    <pelicula id="1">
-        <nombre>Kimetsu no Yaiba,</nombre>
+    <pelicula id="1"  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+           xsi:noNamespaceSchemaLocation="peliculas.xsd">
+        <nombre>Kimetsu no Yaiba</nombre>
+        <nombre>Kimetsu no Yaiba</nombre>
+        <nombre>Kimetsu no Yaiba</nombre>
+        <nombre>Kimetsu no Yaiba</nombre>
         <director>Fransuoa</director>
         <cinematografica>Los que respetan</cinematografica>
         <tiempoduracion>1:20h</tiempoduracion>

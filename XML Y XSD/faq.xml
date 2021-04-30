@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<faq xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"  
+    xsi:noNamespaceSchemaLocation="faq.xsd">
+  <info>
+    <titulo>Docker</titulo>
+    <autor>Emilio Fernández</autor>
+    <email>efernandez@gmail.com</email>
+    <version>1.0</version>
+    <fecha>2021-01-29</fecha>
+  </info>
+  <part>
+    <q>
+      <qtext>¿Como puedo ver los contenedores docker?</qtext>
+      <a>Con Docker ps</a>
+    </q>
+    <q>
+      <qtext>¿Qué diferencia hay entre una imagen y un contenedor?</qtext>
+      <a>La imagen es como un  screenshot, mientrar el contendor es la instancia en ejecución de una imagen</a>
+    </q>
+  </part>
+</faq>

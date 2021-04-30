@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<agenda 
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+    xsi:noNamespaceSchemaLocation="agenda2.xsd">
+  <contacto codigo="c001">
+    <nombre>Juan</nombre>
+    <apellidos>Marquez</apellidos>
+    <movil empresa="movistar">656773221</movil>
+    <movil>666123432</movil>
+    <fijo>912343820</fijo>
+    <movil>609398271</movil>
+    <email tipo="trabajo">juan@ticarte.com</email>
+    <sexo>
+      <hombre />
+    </sexo>
+    <comentarios></comentarios>
+  </contacto>
+  <contacto codigo="c002">
+    <nombre>Maria</nombre>
+    <apellidos>Bonilla</apellidos>
+    <movil empresa="movistar">665343092</movil>
+    <movil>666232096</movil>
+    <fijo>923430675</fijo>
+    <email tipo="personal">maria@ticarte.com</email>
+    <sexo>
+      <mujer />
+    </sexo>
+    <pareja codigo="c001">Juan</pareja>
+    <comentarios>Llamar solo por la mañana.</comentarios>
+  </contacto>
+</agenda>
